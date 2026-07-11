@@ -1,16 +1,32 @@
-# React + Vite
+# GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação desenvolvida em React que busca informações de usuários através da API pública do GitHub.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Buscar usuários do GitHub
+- Exibir foto do perfil
+- Exibir login
+- Exibir bio
+- Exibir quantidade de seguidores
+- Exibir quantidade de repositórios públicos
+- Mensagem de erro quando o usuário não existe
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Flexbox
+- Git
+- GitHub
+- GitHub API
 
-## Expanding the Oxlint configuration
+## Aprendizados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- useState
+- fetch
+- Promises (.then)
+- APIs REST
+- Renderização condicional
+- Flexbox
